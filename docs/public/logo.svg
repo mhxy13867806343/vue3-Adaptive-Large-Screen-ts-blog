@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="@hooksvue/big-screen">
+  <rect width="64" height="64" rx="14" fill="#0f172a"/>
+  <path d="M14 18h36v22H14z" fill="#082f49" stroke="#38bdf8" stroke-width="3"/>
+  <path d="M22 48h20M32 40v8" stroke="#22c55e" stroke-width="4" stroke-linecap="round"/>
+  <path d="M20 34l8-8 6 5 10-12" fill="none" stroke="#7dd3fc" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
