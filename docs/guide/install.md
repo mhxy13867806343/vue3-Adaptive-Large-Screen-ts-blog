@@ -1,30 +1,12 @@
-# 安装与发布状态
+# 安装
 
-## npm 检查结果
+## npm 包
 
-已在 2026-05-01 检查 npm registry：
+`@hooksvue/big-screen` 已发布到 npm，当前最新版本为 `0.1.1`。
 
-```bash
-pnpm view @hooksvue/big-screen version --registry=https://registry.npmjs.org
-```
+npm 包地址：<https://www.npmjs.com/package/@hooksvue/big-screen>
 
-结果为：
-
-```text
-E404 Not Found - '@hooksvue/big-screen@*' is not in this registry.
-```
-
-因此当前还不能使用：
-
-```bash
-pnpm add @hooksvue/big-screen
-npm i @hooksvue/big-screen
-yarn add @hooksvue/big-screen
-```
-
-## 包发布后
-
-包发布后推荐使用 pnpm：
+推荐使用 pnpm：
 
 ```bash
 pnpm add @hooksvue/big-screen
@@ -37,7 +19,11 @@ npm i @hooksvue/big-screen
 yarn add @hooksvue/big-screen
 ```
 
-然后在 Vue 3 项目中按需引入：
+`vue` 是 peer dependency，业务项目需要自行安装 `vue@^3.5.0`。
+
+## 引入
+
+在 Vue 3 项目中按需引入：
 
 ```ts
 import { createBigScreen, BigScreenContainer, ScreenResizer, vScale } from '@hooksvue/big-screen';
@@ -50,9 +36,9 @@ import '@hooksvue/big-screen/style.css';
 import '@hooksvue/big-screen/css-only.css';
 ```
 
-## 包发布前试用
+## 本地开发源码
 
-可以从主项目仓库拉取源码：
+如果需要参与开发，可以从主项目仓库拉取源码：
 
 ```bash
 git clone https://github.com/mhxy13867806343/vue3-Adaptive-Large-Screen-ts.git

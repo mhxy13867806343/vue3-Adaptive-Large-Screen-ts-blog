@@ -20,9 +20,15 @@
 }
 ```
 
-## 为什么 `pnpm add @hooksvue/big-screen` 失败
+## npm 包在哪里
 
-截至 2026-05-01，npm registry 尚未发布该包，安装会返回 `E404`。包发布前请从源码仓库本地构建或使用 Git URL 方式试用。
+包地址是 <https://www.npmjs.com/package/@hooksvue/big-screen>，当前最新版本为 `0.1.1`。
+
+可以使用：
+
+```bash
+pnpm add @hooksvue/big-screen
+```
 
 ## JS 模式和 CSS 模式怎么选
 

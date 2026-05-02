@@ -21,6 +21,7 @@ export default defineConfig({
       {
         text: '相关链接',
         items: [
+          { text: 'npm 包', link: 'https://www.npmjs.com/package/@hooksvue/big-screen' },
           { text: 'GitHub 仓库', link: 'https://github.com/mhxy13867806343/vue3-Adaptive-Large-Screen-ts' },
           { text: '在线 Playground', link: 'https://mhxy13867806343.github.io/vue3-Adaptive-Large-Screen-ts/' },
         ],

@@ -40,11 +40,9 @@ features:
 
 如果你的页面需要在不同分辨率中保持设计稿比例，优先使用 JS 计算模式。如果页面内容静态、只需要纯 CSS 缩放，可以使用 `css-only.css`。
 
-## 当前发布状态
+## 安装
 
-截至 2026-05-01，npm registry 尚未发布 `@hooksvue/big-screen`，`pnpm view @hooksvue/big-screen --registry=https://registry.npmjs.org` 返回 `E404`。包发布前可以先从源码仓库本地构建或通过 Git URL 方式试用。
-
-正式包发布后，再使用：
+`@hooksvue/big-screen` 已发布到 npm，当前最新版本为 `0.1.1`。
 
 ```bash
 pnpm add @hooksvue/big-screen
@@ -53,9 +51,12 @@ npm i @hooksvue/big-screen
 yarn add @hooksvue/big-screen
 ```
 
+npm 包地址：<https://www.npmjs.com/package/@hooksvue/big-screen>
+
 ## 资料来源
 
 本文档根据主项目源码、README、CHANGELOG 与在线 Playground 编写。
 
+- npm 包：<https://www.npmjs.com/package/@hooksvue/big-screen>
 - 主项目：<https://github.com/mhxy13867806343/vue3-Adaptive-Large-Screen-ts>
 - 在线 Playground：<https://mhxy13867806343.github.io/vue3-Adaptive-Large-Screen-ts/>

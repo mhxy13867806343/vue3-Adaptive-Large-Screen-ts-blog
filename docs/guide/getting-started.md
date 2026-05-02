@@ -4,9 +4,7 @@
 
 ## 安装
 
-::: warning 当前 npm 包尚未发布
-截至 2026-05-01，`@hooksvue/big-screen` 在 npm registry 返回 `E404`。下面命令是包发布后的正式安装方式；包发布前请参考 [安装与发布状态](/guide/install)。
-:::
+`@hooksvue/big-screen` 已发布到 npm，当前最新版本为 `0.1.1`。
 
 ```bash
 pnpm add @hooksvue/big-screen
@@ -14,6 +12,8 @@ pnpm add @hooksvue/big-screen
 npm i @hooksvue/big-screen
 yarn add @hooksvue/big-screen
 ```
+
+npm 包地址：<https://www.npmjs.com/package/@hooksvue/big-screen>
 
 `vue` 是 peer dependency，业务项目需要自行安装 `vue@^3.5.0`。
 
