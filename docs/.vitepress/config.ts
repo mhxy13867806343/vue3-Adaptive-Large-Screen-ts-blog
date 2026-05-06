@@ -17,6 +17,7 @@ export default defineConfig({
     nav: [
       { text: '指南', link: '/guide/getting-started' },
       { text: 'API', link: '/api/component' },
+      { text: '示例', link: '/pages/examples/' },
       { text: 'Playground', link: '/playground' },
       {
         text: '相关链接',
@@ -45,6 +46,12 @@ export default defineConfig({
           { text: '缩放模式', link: '/guide/scale-modes' },
           { text: '图表适配', link: '/guide/charts' },
           { text: '常见问题', link: '/guide/faq' },
+        ],
+      },
+      {
+        text: '示例',
+        items: [
+          { text: '动态表单', link: '/pages/examples/' },
         ],
       },
       {
